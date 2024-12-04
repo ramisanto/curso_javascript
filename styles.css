@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** HEADER **/
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header a {
+    color: #ffffff;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin: 20px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+header nav ul li a {
+    color: rgb(255, 252, 252);
+}
+
+header nav ul li a:hover {
+    color: rgb(0, 255, 34);
+}
+
+header nav ul {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    height: 90vh;
+    background-image: url("./img/montevideo_oscurecido.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+
+.hero a {
+    background-color: rgb(255, 251, 251);
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.hero a:hover {
+    background-color: rgba(2, 255, 15, 0.693);
+    transform: scale(1.2);
+}
+
+.alquileres {
+    text-align: center;
+    height: 90vh;
+    background-image: url("./img/montevideo_oscurecido.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alquileres h2 {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+
+.alquileres button {
+    background-color: rgb(255, 251, 251);
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.alquileres button:hover {
+    background-color: rgba(2, 255, 15, 0.693);
+    transform: scale(1.2);
+}
