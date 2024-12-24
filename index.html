@@ -14,11 +14,11 @@
     <h1>ALQUILERES URUGUAY</h1>
     <nav class="navegador">
         <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">En Venta</a></li>
-            <li><a href="">Alquileres</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./pages/enventa.html">En Venta</a></li>
+            <li><a href="./pages/alquileres.html">Alquileres</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
         </ul>
     </nav>
     </header>
@@ -39,6 +39,34 @@
         
     </section>
 
-  
+    <section class="servicios">
+        <h2>ALGUNAS DE NUESTRAS CASAS</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <img src="./img/casa1.jpg" alt="Casa 1">
+                <h3>Las Acacias</h3>
+                <a href="">Alquilar</a>
+            </div>
+            <div class="tarjeta">
+                <img src="./img/casa2.jpg" alt="Casa 2">
+                <h3>Buceo</h3>
+                <a href="">Alquilar</a>
+            </div>
+            <div class="tarjeta">
+                <img src="./img/casa3.jpeg" alt="Casa 3">
+                <h3>La Blanqueada</h3>
+                <a href="">Alquilar</a>
+            </div>
+            <div class="tarjeta">
+                <img src="./img/casa4.jpeg" alt="Casa 4">
+                <h3>Cordón</h3>
+                <a href="">Alquilar</a>
+            </div>
+        </div>
+    </section>
+
+    <input type="number" id="precioMax" placeholder="Precio máximo">
+<button onclick="filtrarPorPrecio(document.getElementById('precioMax').value)">Filtrar</button>
+
 </body>
 </html>
